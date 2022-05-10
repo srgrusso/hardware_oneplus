@@ -65,10 +65,21 @@
     <string name="auto_hbm_threshold_summary">Schwellenwert (lux)</string>
     <string name="panel_modes_title">Farbmodus</string>
     <string name="panel_modes_summary">Modi für die Bildschirm-Farbkorrektur</string>
-    <string name="off_mode_title">Aus</string>
-    <string name="srgb_mode_title">sRGB-Modus</string>
-    <string name="dci_mode_title">DCI-P3-Modus mit breitem Farbraum</string>
+    <string name="standard_mode_title">Standard</string>
+    <string name="natural_mode_title">Natürlich</string>
     <string name="wide_mode_title">Breiter Farbraum Modus</string>
+    <string name="srgb_mode_title">sRGB-Modus</string>
+    <string name="p3_mode_title">DCI-P3</string>
+    <string name="kcal_settings_title">KCAL</string>
+    <string name="kcal_settings_summary">Display über KCAL kalibrieren</string>
+    <string name="kcal_settings">Anpassbare Werte</string>
+    <string name="red_title">Rot</string>
+    <string name="green_title">Grün</string>
+    <string name="blue_title">Blau</string>
+    <string name="saturation_title">Sättigung</string>
+    <string name="hue_title">Farbton</string>
+    <string name="value_title">Wert</string>
+    <string name="contrast_title">Kontrast</string>
     <!-- FPS Info -->
     <string name="fps_title">Gemessene FPS</string>
     <string name="fps_info_title">FPS Overlay</string>
@@ -112,6 +123,10 @@
     <string name="ambient_display_always_on_summary">Uhrzeit, Benachrichtigungssymbole und andere Informationen anzeigen. Erhöhter Akkuverbrauch.</string>
     <string name="switch_bar_off">Aus</string>
     <string name="switch_bar_on">Ein</string>
+    <!-- Power -->
+    <string name="category_power">Leistung</string>
+    <string name="powershare_mode_title">Umgekehrtes kabelloses Aufladen </string>
+    <string name="powershare_mode_summary">Aktiviert das umgekehrte kabellose Laden</string>
     <!-- Speaker & Microphone -->
     <string name="category_speaker">Lautsprecher &amp; Mikrofon</string>
     <string name="ear_gain_title">Lautstärken-Verstärkung (Anrufe)</string>

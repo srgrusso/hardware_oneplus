@@ -65,10 +65,21 @@
     <string name="auto_hbm_threshold_summary">しきい値 (lux)</string>
     <string name="panel_modes_title">パネルモード</string>
     <string name="panel_modes_summary">画面の色補正モード</string>
-    <string name="off_mode_title">OFF</string>
-    <string name="srgb_mode_title">sRGB モード</string>
-    <string name="dci_mode_title">DCI-P3 高色域モード</string>
+    <string name="standard_mode_title">標準</string>
+    <string name="natural_mode_title">ナチュラル</string>
     <string name="wide_mode_title">高色域モード</string>
+    <string name="srgb_mode_title">sRGB モード</string>
+    <string name="p3_mode_title">DCI-P3</string>
+    <string name="kcal_settings_title">KCAL</string>
+    <string name="kcal_settings_summary">KCAL による画面のキャリブレーションを行う</string>
+    <string name="kcal_settings">調整可能な値</string>
+    <string name="red_title">赤</string>
+    <string name="green_title">緑</string>
+    <string name="blue_title">青</string>
+    <string name="saturation_title">彩度</string>
+    <string name="hue_title">色相</string>
+    <string name="value_title">明度</string>
+    <string name="contrast_title">コントラスト</string>
     <!-- FPS Info -->
     <string name="fps_title">FPS 測定</string>
     <string name="fps_info_title">FPS オーバーレイ</string>
@@ -112,6 +123,10 @@
     <string name="ambient_display_always_on_summary">時刻、通知アイコンなどの情報を表示します。電池使用量が増えます。</string>
     <string name="switch_bar_off">OFF</string>
     <string name="switch_bar_on">ON</string>
+    <!-- Power -->
+    <string name="category_power">電源</string>
+    <string name="powershare_mode_title">ワイヤレス PowerShare</string>
+    <string name="powershare_mode_summary">リバースワイヤレス充電を有効にする</string>
     <!-- Speaker & Microphone -->
     <string name="category_speaker">スピーカーとマイク</string>
     <string name="ear_gain_title">イヤホンゲイン</string>

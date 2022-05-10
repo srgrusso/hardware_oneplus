@@ -65,10 +65,21 @@
     <string name="auto_hbm_threshold_summary">порог (lux)</string>
     <string name="panel_modes_title">Режимы панели</string>
     <string name="panel_modes_summary">Режимы для цветовой коррекции</string>
-    <string name="off_mode_title">Выключено</string>
-    <string name="srgb_mode_title">Режим sRGB</string>
-    <string name="dci_mode_title">Режим широкой цветовой гаммы DCI-P3</string>
+    <string name="standard_mode_title">Стандарт</string>
+    <string name="natural_mode_title">Натуральный</string>
     <string name="wide_mode_title">Режим широкой цветовой гаммы</string>
+    <string name="srgb_mode_title">Режим sRGB</string>
+    <string name="p3_mode_title">DCI-P3</string>
+    <string name="kcal_settings_title">Kcal</string>
+    <string name="kcal_settings_summary">Калибровка дисплея через Kcal</string>
+    <string name="kcal_settings">Регулируемые значения</string>
+    <string name="red_title">Красный</string>
+    <string name="green_title">Зеленый</string>
+    <string name="blue_title">Синий</string>
+    <string name="saturation_title">Насыщенность</string>
+    <string name="hue_title">Оттенок</string>
+    <string name="value_title">Значение</string>
+    <string name="contrast_title">Контрастность</string>
     <!-- FPS Info -->
     <string name="fps_title">Измеренный FPS</string>
     <string name="fps_info_title">Отображение FPS</string>
@@ -112,6 +123,10 @@
     <string name="ambient_display_always_on_summary">Показывать время, значки уведомлений и другую информацию. Увеличивает расход батареи.</string>
     <string name="switch_bar_off">Выключено</string>
     <string name="switch_bar_on">Включено</string>
+    <!-- Power -->
+    <string name="category_power">Питание</string>
+    <string name="powershare_mode_title">Беспроводной PowerShare</string>
+    <string name="powershare_mode_summary">Включить обратную беспроводную зарядку</string>
     <!-- Speaker & Microphone -->
     <string name="category_speaker">Динамик &amp; Микрофон</string>
     <string name="ear_gain_title">Усиление динамика (Вызовы)</string>

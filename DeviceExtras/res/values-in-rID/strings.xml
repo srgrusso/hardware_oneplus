@@ -65,10 +65,21 @@
     <string name="auto_hbm_threshold_summary">ambang batas (lux)</string>
     <string name="panel_modes_title">Mode Panel</string>
     <string name="panel_modes_summary">Mode untuk koreksi warna panel</string>
-    <string name="off_mode_title">Nonaktif</string>
+    <string name="standard_mode_title">Standar</string>
+    <string name="natural_mode_title">Alami</string>
+    <string name="wide_mode_title">AMOLED Wide Gamut</string>
     <string name="srgb_mode_title">Mode sRGB</string>
-    <string name="dci_mode_title">Mode keseluruhan warna lebar DCI-P3</string>
-    <string name="wide_mode_title">Mode Warna Lebar</string>
+    <string name="p3_mode_title">DCI-P3</string>
+    <string name="kcal_settings_title">Kcal</string>
+    <string name="kcal_settings_summary">Kalibrasi layar lewat Kcal</string>
+    <string name="kcal_settings">Nilai yang dapat disesuaikan</string>
+    <string name="red_title">Merah</string>
+    <string name="green_title">Hijau</string>
+    <string name="blue_title">Biru</string>
+    <string name="saturation_title">Saturasi</string>
+    <string name="hue_title">Warna</string>
+    <string name="value_title">Nilai</string>
+    <string name="contrast_title">Kontras</string>
     <!-- FPS Info -->
     <string name="fps_title">Pengukur FPS</string>
     <string name="fps_info_title">Hamparan FPS</string>
@@ -112,6 +123,10 @@
     <string name="ambient_display_always_on_summary">Tampilkan waktu, ikon notifikasi dan info lainnya. Penggunaan baterai akan meningkat.</string>
     <string name="switch_bar_off">Nonaktif</string>
     <string name="switch_bar_on">Aktif</string>
+    <!-- Power -->
+    <string name="category_power">Matikan Daya</string>
+    <string name="powershare_mode_title">PowerShare Nirkabel</string>
+    <string name="powershare_mode_summary">Aktifkan pengisian nirkabel terbalik</string>
     <!-- Speaker & Microphone -->
     <string name="category_speaker">Speaker &amp; Mikrofon</string>
     <string name="ear_gain_title">Peningkatan lubang suara (Telepon)</string>
