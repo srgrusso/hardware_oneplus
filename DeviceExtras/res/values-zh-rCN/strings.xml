@@ -65,10 +65,21 @@
     <string name="auto_hbm_threshold_summary">阈值 (lux)</string>
     <string name="panel_modes_title">面板模式</string>
     <string name="panel_modes_summary">面板颜色校正模式</string>
-    <string name="off_mode_title">关闭</string>
-    <string name="srgb_mode_title">sRGB 模式</string>
-    <string name="dci_mode_title">DCI-P3 广色域模式</string>
+    <string name="standard_mode_title">标准</string>
+    <string name="natural_mode_title">自然</string>
     <string name="wide_mode_title">广色域模式</string>
+    <string name="srgb_mode_title">sRGB 模式</string>
+    <string name="p3_mode_title">DCI-P3 色彩标准</string>
+    <string name="kcal_settings_title">Kcal</string>
+    <string name="kcal_settings_summary">通过 Kcal 校准显示</string>
+    <string name="kcal_settings">可调整值</string>
+    <string name="red_title">红色</string>
+    <string name="green_title">绿色</string>
+    <string name="blue_title">蓝色</string>
+    <string name="saturation_title">饱和度</string>
+    <string name="hue_title">色调</string>
+    <string name="value_title">数值</string>
+    <string name="contrast_title">对比度</string>
     <!-- FPS Info -->
     <string name="fps_title">实测 FPS</string>
     <string name="fps_info_title">FPS 叠加层</string>
@@ -112,6 +123,10 @@
     <string name="ambient_display_always_on_summary">显示时间、通知图标和其他信息。这会增加电池使用量。</string>
     <string name="switch_bar_off">关闭</string>
     <string name="switch_bar_on">开启</string>
+    <!-- Power -->
+    <string name="category_power">电源</string>
+    <string name="powershare_mode_title">无线电力共享</string>
+    <string name="powershare_mode_summary">启用反向无线充电</string>
     <!-- Speaker & Microphone -->
     <string name="category_speaker">扬声器 &amp; 麦克风</string>
     <string name="ear_gain_title">耳机增益 (通话)</string>

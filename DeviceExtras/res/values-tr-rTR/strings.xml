@@ -65,10 +65,21 @@
     <string name="auto_hbm_threshold_summary">eşik (lux)</string>
     <string name="panel_modes_title">Panel modları</string>
     <string name="panel_modes_summary">Panel rengi düzeltmesi için modlar</string>
-    <string name="off_mode_title">Kapalı</string>
-    <string name="srgb_mode_title">sRGB modu</string>
-    <string name="dci_mode_title">DCI-P3 geniş renk gamı modu</string>
+    <string name="standard_mode_title">Standart</string>
+    <string name="natural_mode_title">Doğal</string>
     <string name="wide_mode_title">Geniş renk modu</string>
+    <string name="srgb_mode_title">sRGB modu</string>
+    <string name="p3_mode_title">DCI-P3</string>
+    <string name="kcal_settings_title">Kcal</string>
+    <string name="kcal_settings_summary">Kcal ile görüntüyü kalibre et</string>
+    <string name="kcal_settings">Ayarlanabilir değerler</string>
+    <string name="red_title">Kırmızı</string>
+    <string name="green_title">Yeşil</string>
+    <string name="blue_title">Mavi</string>
+    <string name="saturation_title">Doygunluk</string>
+    <string name="hue_title">Ton</string>
+    <string name="value_title">Değer</string>
+    <string name="contrast_title">Kontrast</string>
     <!-- FPS Info -->
     <string name="fps_title">Ölçülen yenileme hızı</string>
     <string name="fps_info_title">Yenileme hızı arayüzü</string>
@@ -112,6 +123,10 @@
     <string name="ambient_display_always_on_summary">Saati, bildirim simgelerini ve diğer bilgileri gösterir. Pil kullanımını artırır.</string>
     <string name="switch_bar_off">Kapalı</string>
     <string name="switch_bar_on">Açık</string>
+    <!-- Power -->
+    <string name="category_power">Güç</string>
+    <string name="powershare_mode_title">Kablosuz güç paylaşımı</string>
+    <string name="powershare_mode_summary">Ters kablosuz şarjı etkinleştir</string>
     <!-- Speaker & Microphone -->
     <string name="category_speaker">Hoparlör &amp; Mikrofon</string>
     <string name="ear_gain_title">Kulaklık yükseltme (Aramalarda)</string>
