@@ -80,6 +80,10 @@ public class Startup extends BroadcastReceiver {
         if (enabled) {
             context.startService(new Intent(context, FPSInfoService.class));
                }
+        enabled = sharedPrefs.getBoolean(DeviceExtras.KEY_FSYNC_SWITCH, false);
+        if (enabled) {
+        restore(FSyncModeSwitch.getFile(context), enabled);
+               }
         enabled = sharedPrefs.getBoolean(DeviceExtras.KEY_POWERSHARE_SWITCH, false);
         if (enabled) {
             restore(PowerShareModeSwitch.getFile(context), enabled);
@@ -110,6 +114,10 @@ public class Startup extends BroadcastReceiver {
         enabled = sharedPrefs.getBoolean(DeviceExtras.KEY_TP_EDGE_LIMIT_SWITCH, false);
         if (enabled) {
             restore(TPEdgeLimitModeSwitch.getFile(context), enabled);
+               }
+        enabled = sharedPrefs.getBoolean(DeviceExtras.KEY_POWER_EFFICIENT_WQ_SWITCH, false);
+        if (enabled) {
+            restore(PowerEfficientWorkqueueModeSwitch.getFile(context), enabled);
                }
         enabled = sharedPrefs.getBoolean(DeviceExtras.KEY_USB2_SWITCH, false);
         if (enabled) {

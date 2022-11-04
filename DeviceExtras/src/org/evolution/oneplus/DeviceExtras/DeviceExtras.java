@@ -73,6 +73,12 @@ public class DeviceExtras extends PreferenceFragment
 
     public static final String KEY_CATEGORY_AUDIO = "audio";
 
+    public static final String KEY_CATEGORY_CPU = "cpu";
+    public static final String KEY_POWER_EFFICIENT_WQ_SWITCH = "power_efficient_workqueue";
+    public static final String KEY_TOUCHBOOST_SWITCH = "touchboost";
+    private static TwoStatePreference mPowerEfficientWorkqueueModeSwitch;
+    private static TwoStatePreference mTouchBoostModeSwitch;
+
     public static final String KEY_CATEGORY_DISPLAY = "display";
     public static final String KEY_DOZE = "advanced_doze_settings";
     public static final String KEY_PANEL_MODES = "panel_modes";
@@ -93,6 +99,11 @@ public class DeviceExtras extends PreferenceFragment
     private static TwoStatePreference mHBMModeSwitch;
     private static TwoStatePreference mAutoHBMSwitch;
     private Preference mHBMInfo;
+
+    public static final String KEY_CATEGORY_FILESYSTEM = "filesystem";
+    public static final String KEY_FSYNC_SWITCH = "fsync";
+    public static final String KEY_FSYNC_INFO = "fsync_info";
+    private static TwoStatePreference mFSyncModeSwitch;
 
     public static final String KEY_CATEGORY_FPS = "fps";
     public static final String KEY_FPS_INFO = "fps_info";
@@ -258,6 +269,41 @@ public class DeviceExtras extends PreferenceFragment
         ps.oneShot(this.getView(),50);
         return true;
         });
+
+        boolean cpuCategory = false;
+
+        // Power Efficient Workqueue
+        cpuCategory = cpuCategory | isFeatureSupported(context, R.bool.config_deviceSupportsPowerEfficientWorkqueue);
+        if (isFeatureSupported(context, R.bool.config_deviceSupportsPowerEfficientWorkqueue)) {
+            mPowerEfficientWorkqueueModeSwitch = (TwoStatePreference) findPreference(KEY_POWER_EFFICIENT_WQ_SWITCH);
+            mPowerEfficientWorkqueueModeSwitch.setEnabled(PowerEfficientWorkqueueModeSwitch.isSupported(this.getContext()));
+            mPowerEfficientWorkqueueModeSwitch.setOnPreferenceChangeListener(new PowerEfficientWorkqueueModeSwitch());
+        }
+        else {
+           findPreference(KEY_POWER_EFFICIENT_WQ_SWITCH).setVisible(false);
+        }
+
+        if (!cpuCategory) {
+            getPreferenceScreen().removePreference((Preference) findPreference(KEY_CATEGORY_CPU));
+        }
+
+        boolean filesystemCategory = false;
+
+        // FSync
+        filesystemCategory = filesystemCategory | isFeatureSupported(context, R.bool.config_deviceSupportsFSyncOff);
+        if (isFeatureSupported(context, R.bool.config_deviceSupportsFSyncOff)) {
+            mFSyncModeSwitch = (TwoStatePreference) findPreference(KEY_FSYNC_SWITCH);
+            mFSyncModeSwitch.setEnabled(FSyncModeSwitch.isSupported(this.getContext()));
+            mFSyncModeSwitch.setOnPreferenceChangeListener(new FSyncModeSwitch());
+        }
+        else {
+           findPreference(KEY_FSYNC_SWITCH).setVisible(false);
+           findPreference(KEY_FSYNC_INFO).setVisible(false);
+        }
+
+        if (!filesystemCategory) {
+            getPreferenceScreen().removePreference((Preference) findPreference(KEY_CATEGORY_FILESYSTEM));
+        }
 
         // FPS
         if (isFeatureSupported(context, R.bool.config_deviceSupportsFPS)) {
