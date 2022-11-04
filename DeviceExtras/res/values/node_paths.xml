@@ -64,6 +64,12 @@
     <!-- DC-dimming sysfs node path -->
     <string name="node_dc_mode_switch"></string>
 
+    <!-- Power Efficient Workqueue sysfs node path -->
+    <string name="node_power_efficient_workqueue_mode_switch"></string>
+
+    <!-- FSync sysfs node path -->
+    <string name="node_fsync_mode_switch"></string>
+
     <!-- Measuered FPS sysfs node path -->
     <string name="node_fps_info_service"></string>
     

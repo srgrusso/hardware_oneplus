@@ -66,6 +66,17 @@
         </Preference>
     </PreferenceCategory>
 
+    <!-- Start of CPU Category -->
+    <PreferenceCategory
+        android:key="cpu"
+        android:title="@string/cpu_title">
+
+        <SwitchPreference
+            android:key="power_efficient_workqueue"
+            android:title="@string/power_efficient_workqueue_title"
+            android:summary="@string/power_efficient_workqueue_summary" />
+    </PreferenceCategory>
+
     <!-- Start of display Category -->
     <PreferenceCategory
         android:key="display"
@@ -125,6 +136,24 @@
             android:key="hbm_info"
             android:icon="@drawable/ic_info_outline"
             android:summary="@string/hbm_mode_warning" 
+            android:persistent="false" />
+    </PreferenceCategory>
+
+    <!-- Start of filesystem Category -->
+    <PreferenceCategory
+        android:key="filesystem"
+        android:title="@string/filesystem_title">
+
+        <SwitchPreference
+            android:key="fsync"
+            android:defaultValue="true"
+            android:title="@string/fsync_title"
+            android:summary="@string/fsync_summary" />
+
+        <Preference
+            android:key="fsync_info"
+            android:icon="@drawable/ic_info_outline"
+            android:summary="@string/fsync_warning"
             android:persistent="false" />
     </PreferenceCategory>
 
