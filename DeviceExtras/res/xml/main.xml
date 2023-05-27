@@ -72,6 +72,11 @@
         android:title="@string/cpu_title">
 
         <SwitchPreference
+            android:key="gpu_throttling"
+            android:title="@string/gpu_throttling_title"
+            android:summary="@string/gpu_throttling_summary" />
+
+        <SwitchPreference
             android:key="power_efficient_workqueue"
             android:title="@string/power_efficient_workqueue_title"
             android:summary="@string/power_efficient_workqueue_summary" />

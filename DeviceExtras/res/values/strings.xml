@@ -61,6 +61,8 @@
 
     <!-- CPU -->
     <string name="cpu_title">CPU</string>
+    <string name="gpu_throttling_title">Adreno GPU thermal throttling</string>
+    <string name="gpu_throttling_summary">Allow lowering GPU frequencies to reduce temperatures</string>
     <string name="power_efficient_workqueue_title">Power efficient workqueue</string>
     <string name="power_efficient_workqueue_summary">Save power by rescheduling work to a core that is already awake</string>
 

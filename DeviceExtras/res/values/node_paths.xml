@@ -64,6 +64,9 @@
     <!-- DC-dimming sysfs node path -->
     <string name="node_dc_mode_switch"></string>
 
+    <!-- Adreno GPU Throttling sysfs node path -->
+    <string name="node_gpu_throttling_mode_switch"></string>
+
     <!-- Power Efficient Workqueue sysfs node path -->
     <string name="node_power_efficient_workqueue_mode_switch"></string>
 
